@@ -1,0 +1,19 @@
+# Core deep learning
+torch
+torchvision
+timm
+
+# Data handling
+numpy
+pandas
+Pillow
+
+# Training utilities
+tqdm
+
+# Evaluation & visualization
+scikit-learn
+matplotlib
+
+# Configs (optional but useful later)
+pyyaml
