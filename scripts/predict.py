@@ -1,6 +1,13 @@
 import argparse
 from pathlib import Path
 from typing import Union
+import sys  # <-- add this
+
+# Ensure repo root is on sys.path so that `import src...` works
+THIS_FILE = Path(__file__).resolve()
+REPO_ROOT = THIS_FILE.parents[1]  # /content/food-calorie-estimation
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 import torch
 from torch import nn
