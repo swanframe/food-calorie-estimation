@@ -646,4 +646,12 @@ Planned / possible extensions:
 ## 12. License & Credits
 
 * **Dataset:** Nutrition5k – please follow the official license and terms in the Nutrition5k repository.
-* **Code:** Add your preferred license here (e.g., MIT).
+* **Code:** MIT.
+
+---
+
+## 13. Author
+
+**Rahman**
+
+* GitHub: `https://github.com/swanframe`
